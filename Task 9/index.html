@@ -1,0 +1,115 @@
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="container p-3">
+        <form class="rounded border border-5 " name="gender">
+            <br>
+            <div class="container">
+                <h3>Personal Details..</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <label class="form-label"><b>Name of Applicant:</b></label>
+                        <input type="text" class="rounded" id="fn" placeholder="FIRST NAME" required>
+                    </div>
+                    <div class="col-3">
+                        <label class="form-label"></label>
+                        <input type="text" class="rounded" id="mn" placeholder="MIDDLE NAME">
+                    </div>
+                    <div class="col-3">
+                        <label for=""></label>
+                        <input type="text" class="rounded" id="ln" placeholder="LAST NAME">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-4">
+                        <label><b>Gender:</b></label>
+                        <input type="radio" name="gender" value="male" id="m">Male</input>
+                        <input type="radio" name="gender" value="female" id="f">Female</input>
+                        <input type="radio" name="gender" value="transgender" id="tg">Trans Gender</input>
+                    </div>
+                    <div class="col-3">
+                        <label><b>Date of Birth:</label>
+                        <input type="date" class="rounded" id="dob" placeholder="DD/MM/YYYY" required>
+                    </div>
+                      <!-- <div class="col-1">
+                        <label for="">Age</label>
+                        <input type="text" class="rounded" placeholder="YOUR AGE">
+                    </div>  -->
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-4">
+                        <label><b>Place of Birth:</b></label>
+                        <input type="text" class="rounded" id="pob" placeholder="PLACE OF BIRTH" required>
+                    </div>
+                    <div class="col-4">
+                        <label><b>Country of Birth:</label>
+                        <input type="text" class="rounded" id="cob" placeholder="COUNTRY OF BIRTH" required>
+                        <!--  <select class="rounded">
+                            <option>select</option>
+                            <option>India</option>
+                            <option>Enland</option>
+                            <option>Dubai</option>
+                            <option>USA</option>
+                        </select> -->
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Qualification:</label>
+                        <input type="text" class="rounded" id="qal" placeholder="ENTER QUALIFICATION">
+                    </div>
+                    <div class="col-4">
+                        <label for="">Blood Group:</label>
+                        <input type="text" class="rounded" id="bg" placeholder="UNKNOWN">
+                    </div>
+                </div>
+                <br>
+                
+                <div class="row">
+                    <div class="col-4">
+                        <label>Landline Number:</label>
+                        <input type="text" class="rounded" id="ln" placeholder="LANDLINE NUMBER">
+                        <br>
+                    </div>
+                    <div class="col-4">
+                        <label>Email ID:</label>
+                        <input type="text" class="rounded" id="ei" placeholder="eg:shashi@2003">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Phone Number:</label>
+                        <button class="rounded">+91</button>
+                        <input type="text" class="rounded" id="pn" placeholder="PHONE NUMBER">
+                        <br>
+                    </div>
+                    <div class="col-4">
+                        <label>Emergency Number:</label>
+                      
+                        <input type="text" class="rounded" id="en" placeholder="EMERGENCY NUMBER">
+                    </div>
+                </div>
+                <br>
+                
+                <div style="margin: 0 30% 0 30% ;">
+                    <button  type="button" class="btn btn-primary" onclick="getDetails()">Submit</button>
+                    <button class="btn btn-secondary">Cancle</button>
+                </div>
+                <br>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
