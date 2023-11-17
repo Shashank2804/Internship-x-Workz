@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="container border border-black rounded w-50 p-2">
+        <form name="gender">
+            <h2>Registration form</h2>
+            <hr>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" id="names" required /><br>
+            <br>
+            <label>Email:</label>
+            <input type="text" placeholder="Enter your email" id="email" required />
+            <br>
+            <br>
+            <label>Phone No.:</label>
+            <input type="text" placeholder="Enter your phone no." id="pn" required /><br>
+            <br>
+            <label>Password:</label>
+            <input type="password" placeholder="Enter the password" id="password" required /><br>
+            <br>
+            <label>Confirm Password:</label>
+            <input type="password" placeholder="Confirm password" id="cp" required /><br>
+            <br>
+            <label>City:</label>
+            <select id="city">
+                <option>Select</option>
+                <option>Banglore</option>
+                <option>Manglore</option>
+                <option>Mysore</option>
+                <option>Mandya</option>
+                <option>Ramanagara</option>
+                <option>Belagavi</option>
+                <option>Belari</option>
+                <option>Hassana</option>
+                <option>Chitradurga</option>
+                <option>Bididi</option>
+                <option>Nangangodu</option>
+            </select>
+            <br>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male" id="m" >Male</input>
+            <input type="radio" name="gender" value="female" id="f">Female</input>
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="getDetails()">Submit</button>
+            <br>
+        </form>
+    </div>
+
+</body>
+
+</html>
