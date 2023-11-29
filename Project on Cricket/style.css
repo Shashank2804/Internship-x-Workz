@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.blur-img{
+    background-image: url('./Images/stadiumimag.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%; 
+    filter: blur(0px);
+
+}
+
+nav ul li a:hover{
+    background-color: black;
+    border-radius: 6px;
+    position:relative;
+}
+
+footer ul li a:hover{
+    background-color:burlywood;
+    border-radius: 6px;
+    position:relative;
+}
+
+
